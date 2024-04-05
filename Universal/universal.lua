@@ -6,7 +6,7 @@ local Window = library:CreateWindow("SigmaSense", Vector2.new(500, 600), Enum.Ke
 local gamename = game:GetService("MarketplaceService"):GetProductInfo(game["PlaceId"]).Name
 
 -- Watermark:
-local watermark = library:CreateWatermark("SigmaSense | " .. gamename, Vector2.new(50, 15))
+local watermark = library:CreateWatermark("SigmaSense | " .. gamename, Vector2.new(100, 15))
 
 -- Combat Tab:
 local CombatTab = Window:CreateTab("Combat")
