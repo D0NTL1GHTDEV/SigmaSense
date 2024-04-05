@@ -16,6 +16,6 @@ end)
 
 local SilentAimSection = CombatTab:CreateSector("Silent Aimlock", "right")
 
-local SilentAimEnableToggle = AimlockSection:AddToggle("Silent Aimlock Enable", false, function(value)
+local SilentAimEnableToggle = SilentAimSection:AddToggle("Silent Aimlock Enable", false, function(value)
     print("u fucked cat xd")
 end)
