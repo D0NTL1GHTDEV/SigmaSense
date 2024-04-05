@@ -2,6 +2,9 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/D0NTL
 
 local Window = library:CreateWindow("SigmaSense", Vector2.new(500, 600), Enum.KeyCode.V)
 
+-- Watermark:
+local watermark = library:CreateWatermark("SigmaSense", Vector2.new(15, 15))
+
 -- Combat Tab:
 local CombatTab = Window:CreateTab("Combat")
 
