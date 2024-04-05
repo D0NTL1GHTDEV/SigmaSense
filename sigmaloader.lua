@@ -5,5 +5,5 @@ local pid = game.PlaceId
 if pid == 2788229376 then
     game.Players.LocalPlayer:Kick("go touch grass xd")
 else
-    loadstring(game:HttpGet(baseLink .. "Universal/universal.lua")())
+    loadstring(game:HttpGet(baseLink .. "Universal/universal.lua")()
 end
